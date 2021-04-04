@@ -23,7 +23,6 @@ public class Auth {
 
         connection.setRequestProperty("accept", "application/json");
         connection.setRequestMethod("GET");
-        System.out.println(connection.getResponseCode());
         // request
         if (connection.getResponseCode() == 200) {
             // Everything good, do whatever you want here
